@@ -4,8 +4,9 @@ body{
 }
 
 header{
-	position:sticky;
-	top:0;	
+	position:fixed;
+	top:0;
+	z-index : 3;	
 	font-family: "Roboto", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: <weight>;
@@ -13,13 +14,9 @@ header{
 	font-variation-settings:
     "wdth" 100;
 	width:100%;
-
+	background-color:black
 }
 
-nav{
-	background-color:black;
-	padding:0.5%;
-}
 
 .logo{
 	width:160px;
@@ -48,20 +45,52 @@ select{
 	background-color:black;
 	color:#D8D8E1;
 	border:2px solid #404040;
-	font-family: "Roboto", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: <weight>;
-	font-style: normal;
-	font-variation-settings:
+}
+
+div h1{
+	position:absolute;
+	top:25%;
+	left:50px;
+	color:white;
+	font-size:75px;
+	left:7%;
+}
+
+div p{
+	position:absolute;
+	top:62%;
+	left:50px;
+	color:white;
+	font-size:16px;
+	left:7%;
+	width:410px;
+}
+
+div button{
+	position:absolute;
+	top:75%;
+	left:50px;
+	color:white;
+	font-size:12px;
+	left:7%;
+	padding:1%;	
+	background-color:black;
+	border:0.1px solid grey
+}
+
+.font{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
     "wdth" 100;
 }
 
-.div1{
-	color:red;
-	background-color:red;
-	z-index:2;
+.sec1{
+	position:sticky;
+	top:0px;
+	z-index:1;
 }
 
-.back{
-	z-index:-1;
-}
+
