@@ -114,6 +114,12 @@ div button{
 	z-index:4;
 }
 
+.sec5{
+	position:sticky;
+	top:0px;
+	z-index:5;
+}
+
 
 .div1{
 	position:absolute;
@@ -146,6 +152,11 @@ div button{
 	font-size:45px;
 }
 
+.h4{
+	font-size:45px;
+	width:30%;
+}
+
 .font1{
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -175,6 +186,14 @@ div button{
 	padding:1%
 }
 
+.p4{
+	font-size:15px;
+	padding:1%;
+	left:6%;
+	top:48%;
+	width:27.5%
+}
+
 .button{
 	top:250px;
 	padding:2%;
@@ -194,6 +213,14 @@ div button{
 .button2{
 	top:250px;
 	padding:3%;
+	font-size:12px;
+	border:1px solid grey; 
+	border-radius:5px;
+}
+
+.button3{
+	top:65%;
+	padding:1.5%;
 	font-size:12px;
 	border:1px solid grey; 
 	border-radius:5px;
