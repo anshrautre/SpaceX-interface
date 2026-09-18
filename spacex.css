@@ -120,6 +120,11 @@ div button{
 	z-index:5;
 }
 
+.sec6{
+	position:sticky;
+	z-index:5;
+}
+
 
 .div1{
 	position:absolute;
@@ -137,8 +142,8 @@ div button{
 }
 
 .h1{
-	color:black;
 	font-size:45px;
+	color:black;
 }
 
 .h2{
@@ -156,6 +161,7 @@ div button{
 	font-size:45px;
 	width:30%;
 }
+
 
 .font1{
   font-family: "Roboto", sans-serif;
@@ -194,6 +200,14 @@ div button{
 	width:27.5%
 }
 
+.p5{
+	font-size:15px;
+	padding:1%;
+	left:6.2%;
+	top:130px;
+	width:70%
+}
+
 .button{
 	top:250px;
 	padding:2%;
@@ -225,3 +239,37 @@ div button{
 	border:1px solid grey; 
 	border-radius:5px;
 }
+
+.button4{
+	top:250px;
+	padding:2%;
+	font-size:12px;
+	border:1px solid grey; 
+	border-radius:5px;
+}
+
+footer{
+	background-color:black;
+	box-sizing:border-box;
+	padding:0.5%;
+	margin-top:-1%
+}
+
+.foot{
+	width:3%;
+	border-radius:30px;
+	margin:1% 0% 1% 5%;
+	display:inline-block;
+}
+
+footer div{
+	display:inline-block;
+	vertical-align:top;
+	margin:2.2% 0% 0% 4%;
+	font-size:12px;
+}
+
+.mar{
+	margin-left:22%;
+}
+
